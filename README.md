@@ -23,7 +23,7 @@ Posibles respuestas:
 ---
 2. GET
 
-El método GET tiene la función de obtener un determinado carrito previamente creado,a partir de su id con la siguiente ruta. \
+El método GET tiene la función de obtener un determinado carrito previamente creado, a partir de su id con la siguiente ruta. \
 Ruta: _http://localhost:8080/api/carritos/{id_carrito}_ \
 Posibles respuestas:
 - 200 OK: El carrito se devuelve.
