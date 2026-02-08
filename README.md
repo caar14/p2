@@ -14,13 +14,13 @@ Cuerpo: _{
 "descripcion": "zanahoria",
 "unidades": 3,
 "precioFinal":5.5
-}_
+}_ \
 Posibles respuestas:
 - 201 Created: Carrito creado correctamente. 
 - 400 Bad Request: Datos inválidos.
 - 401 Unauthorized: Credenciales incorrectas.
 - 409 Conflict : El carrito ya existe.
-
+---
 2. GET
 
 El método GET tiene la función de obtener un determinado carrito previamente creado,a partir de su id con la siguiente ruta. \
@@ -29,7 +29,7 @@ Posibles respuestas:
 - 200 OK: El carrito se devuelve.
 - 401 Unauthorized: Credenciales incorrectas.
 - 404 Not Found: El carrito no existe.
-
+---
 
 3. PUT
 
@@ -39,7 +39,7 @@ Posibles respuestas:
 - 200 OK: Carrito actualizado.
 - 401 Unauthorized: Credenciales incorrectas.
 - 404 Not Found: El carrito no existe.
-
+---
 4. DELETE
 
 El método DELETE permite borrar un carrito previamente creado a patir de su id. \
